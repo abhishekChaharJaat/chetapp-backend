@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cookieParser());
 const corsOption = {
-  origin: "http://localhost:5173" || "http://localhost:3000",
+  origin: "https://abhisheksapp.netlify.app" || "http://localhost:5173",
   credentials: true,
 };
 

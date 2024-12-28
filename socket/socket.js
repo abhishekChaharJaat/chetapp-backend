@@ -6,8 +6,10 @@ const app = express();
 
 const server = http.createServer(app);
 const io = new Server(server, {
+  // https://abhisheksapp.netlify.app/
+  // // ["http://localhost:5173"]
   cors: {
-    origin: ["http://localhost:5173"],
+    origin: ["https://abhisheksapp.netlify.app"],
     methods: ["GET", "POST"],
   },
 });
